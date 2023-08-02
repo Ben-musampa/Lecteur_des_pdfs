@@ -3,34 +3,34 @@
  # Proceder :
  ## Création d'un environnement virtuel
  1. créer un repertoire dans un disque au choix de votre ordinateur, exemple: dans mon cas Lecteur, puis placer vous dans le repertoire
-   ```bash
+     ```bash
       cd Lecteur 
       ```
- 2. Faite la commande suivante pour créer votre environnement
-  ```bash
+ 2. Faite la commande suivante pour créer votre environnement.
+     ```bash
       python -m venv env_lecteur 
       ```
  3. Puis clonner le projet à l'aide de votre git:
-  ```bash
+     ```bash
       git clone https://github.com/Ben-musampa/Lecteur_des_pdfs.git
       ```
- 3. activer l'environement
-  ```bash
+ 3. activer l'environement.
+     ```bash
       env_lecteur\scripts\activate
       ```
- 4. En suite se positionner dans le projet clonné 
-  ```bash
+ 4. En suite se positionner dans le projet clonné.
+     ```bash
       cd Lecteur_des_pdfs 
       ```
-  5. puis
-  ```bash
+  5. puis.
+     ```bash
       cd Lecteur 
       ```
 ## Installation des librairies
-   ```bash
+     ```bash
       pip install -r requirement.txt
       ```
   puis lancer le script python en indiquqnt le chemin du pdf dans le script `main.py` la ligne `lecteur = PyPDF2.PdfFileReader(livre)` puis lancez votre script avec la commande:
-   ```bash
+     ```bash
       python main.py
       ```
