@@ -32,6 +32,6 @@ Installez toutes les librairies avec la commande:
    pip install -r requirement.txt
    ```
 puis lancer le script python en indiquqnt le chemin du pdf dans le script `main.py` la ligne `lecteur = PyPDF2.PdfFileReader(livre)` puis lancez votre script avec la commande:
-     ```bash
-      python main.py
-      ```
+   ```bash
+    python main.py
+    ```
